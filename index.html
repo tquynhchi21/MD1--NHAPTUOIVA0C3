@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<input id="age" type="text">
+<button onclick="check()">Check</button>
+<h3 id="ketQua"></h3>
+<script>
+  function check(){
+    let a = +document.getElementById("age").value;
+    if (a == 15){
+      document.getElementById("ketQua").innerHTML = "Đã đủ tuổi"
+    }    else{
+      if (a < 15){
+        document.getElementById("ketQua").innerHTML = "hơi non"
+      }else {
+        document.getElementById("ketQua").innerHTML = "Quá lứa"
+      }
+    }
+  }
+</script>
+</body>
+</html>
+</body>
+</html>
